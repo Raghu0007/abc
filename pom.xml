@@ -31,14 +31,14 @@
     <repository>
       <uniqueVersion>false</uniqueVersion>
       <id>abc-releases</id>
-      <name>Corporate Repository</name>
+      <name>abc-releases</name>
       <url>http://192.168.32.40:8081/nexus/content/repositories/abc-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>abc-snapshots</id>
-      <name>Propellors Snapshots</name>
+      <name>abc-snapshots</name>
       <url>http://192.168.32.40:8081/nexus/content/repositories/abc-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
