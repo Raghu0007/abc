@@ -42,7 +42,6 @@
       <url>http://192.168.32.40:8081/nexus/content/repositories/abc-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
-    ...
   </distributionManagement>
   
   <build>
