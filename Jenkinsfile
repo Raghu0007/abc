@@ -11,14 +11,7 @@ node('maven-label'){
             }else {
                 bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
             }
-            
-        stage("deploy"){
-            if (isUnix()){
-                sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean deploy"
-            }else {
-                bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
-            }
-        
+              
     }
         stage("Results"){
             junit '**/target/surefire-reports/TEST-*.xml'
