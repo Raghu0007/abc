@@ -1,6 +1,7 @@
 node('maven-label'){
     def mvnHome
     stage("preparation"){
+        //test
         git 'https://github.com/Raghu0007/abc.git'
         mvnHome = tool 'maven'
     }
